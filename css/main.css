@@ -1,0 +1,152 @@
+body{
+    background-color: rgb(114, 100, 100);
+}
+
+#cabecalho{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    text-align: center;
+    background-color: #f0dbdb;
+}
+#play{
+    justify-content: center;
+    background-color: rgb(49, 71, 52); 
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+#palavras{
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.letra{
+    width: 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 5px;
+}
+#letraJ{
+    width: 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 5px;
+}
+#mensagem {
+    font-family: 'Montserrat', Courier, monospace;
+    font-size: 35px;
+    text-align: center;
+    color:yellow;
+    
+    
+}
+#letrasDigitadas {
+    display: inline-block;
+    font-family: 'draw', Courier, monospace;
+    font-size: 28px;
+    font-style: italic, bold;
+    text-decoration-line: underline;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#jogar{
+    background-color: rgb(49, 71, 52); 
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+#trocarPalavra{
+    background-color: rgb(49, 71, 52); 
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#divJogador{
+    display: block;
+}
+
+#boneco{
+    margin-left: 100px;
+}
+#d1{
+    width:60px;
+    height:60px;
+    border:6px solid #000;
+    border-radius:50%;
+}
+#d2{
+    position:absolute;
+    width:3px;
+    height:80px;
+    border:2px solid #000;
+    margin-left:31px;
+    background-color:#000;
+}
+#d3{
+    position:absolute;
+    width:0px;
+    background-color:#000;
+    height:45px;
+    border:3px solid #000;
+    transform:rotate(-45deg);
+    margin-left:50px;
+}
+#d4{
+    position:absolute;
+    width:0px;
+    background-color:#000;
+    height:45px;
+    border:3px solid #000;
+    transform:rotate(45deg);
+    margin-left:12px;}
+#d5{
+    position:absolute;
+    width:0px;
+    background-color:#000;
+    height:45px;
+    border:3px solid #000;
+    transform:rotate(45deg);
+    margin:72px 0px 0px 12px;
+}
+#d6{
+    position:absolute;
+    width:0px;
+    background-color:#000;
+    height:45px;
+    border:3px solid #000;
+    transform:rotate(-45deg);
+    margin:72px 0px 0px 50px;
+}
+#d7{
+    position:relative;
+    width:0px;
+    background-color:#f10f0f;
+    height:45px;
+    border:3px solid #f10f0f;
+    transform:rotate(90deg);
+    margin-left:30px;
+    bottom:22px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jogo da forca</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <h1 id="cabecalho"> Jogo da Forca!</h1>    
+    <div id="palavras" class="col-md-1">
+        <input type="text" id="letra0" class="letra" maxlength="1">
+        <input type="text" id="letra1" class="letra" maxlength="1">
+        <input type="text" id="letra2" class="letra" maxlength="1">
+        <input type="text" id="letra3" class="letra" maxlength="1">
+        <input type="text" id="letra4" class="letra" maxlength="1">
+        <input type="text" id="letra5" class="letra" maxlength="1">
+        <input type="text" id="letra6" class="letra" maxlength="1">
+        <input type="text" id="letra7" class="letra" maxlength="1">
+        <input type="text" id="letra8" class="letra" maxlength="1">
+        <input type="text" id="letra9" class="letra" maxlength="1">
+        <input type="text" id="letra10" class="letra" maxlength="1">
+        <input type="text" id="letra11" class="letra" maxlength="1">
+        <input type="text" id="letra12" class="letra" maxlength="1">
+        <input type="text" id="letra13" class ="letra" maxlength="1">
+        <input type="text" id="letra14" class="letra" maxlength="1">
+        <input type="text" id="letra15" class="letra" maxlength="1">
+    </div>
+    <div id="divJogador">
+        <div id="controle">
+            <button id="jogar">Validar</button>
+            <input type="text" id="letraJ" class="letraJ" maxlength="1">
+            <button id="trocarPalavra">Gerar Palavra</button>
+        </div>
+
+        <div id="mensagens">
+            <p id="mensagem"></p>
+            <p id="letrasDigitadas"></p>
+        </div>
+
+        <div id="boneco">
+            <div id="d1"></div>
+            <div id="d4"></div>
+            <div id="d2"></div>
+            <div id="d3"></div>
+            <div id="d5"></div>
+            <div id="d6"></div>
+            <div id="d7"></div>
+        </div>
+    </div>
+    <script src="script/javascript.js"></script>
+</body>
+</html>
